@@ -2,7 +2,6 @@
 
 Bu proje, astronomlar ve astrofotografçılar için geliştirilmiş, Python tabanlı bir gözlem planlama aracıdır. Özellikle örten çift yıldızların (Eclipsing Binaries) minimum zamanlarını takip etmek ve gözlem gecesi boyunca yıldızın ufuk yüksekliğini (Altitude) hesaplamak için tasarlanmıştır.
 
-![Program Ekran Görüntüsü](ekran_goruntusu.png) *(Buraya programın bir ekran görüntüsünü koymanı öneririm)*
 
 ## 🌟 Özellikler
 
@@ -46,4 +45,5 @@ LOCATION_NAME = "OBSERVATORY NAME HERE"  # Gözlemevi Adı
 LATITUDE = 39.8436 * u.deg               # Enlem (Latitude)
 LONGITUDE = 32.7992 * u.deg              # Boylam (Longitude)
 ELEVATION = 1256 * u.m                   # Rakım (Metre cinsinden)
+
 UTC_OFFSET = 3                           # Saat Dilimi (Türkiye için UTC+3)
