@@ -18,20 +18,22 @@ Bu proje, astronomlar ve astrofotografçılar için geliştirilmiş, Python taba
 
 1.  Bu depoyu (repository) klonlayın:
     ```bash
-    git clone [https://github.com/KULLANICI_ADIN/PROJE_ADIN.git](https://github.com/KULLANICI_ADIN/PROJE_ADIN.git)
-    cd PROJE_ADIN
+    git clone [https://github.com/burakuras/AltPhaseCalc.git](https://https://github.com/burakuras/AltPhaseCalc/.git)
+    cd AltPhaseCalc
     ```
 
 2.  Gerekli kütüphaneleri yükleyin:
     ```bash
-    pip install -r requirements.txt
+    pip install numpy
+    pip install astropy
+    pip install astroquery
+    pip install requests
     ```
 
 3.  Uygulamayı çalıştırın:
     ```bash
-    python main.py
+    python AltPhaseCalc.py
     ```
-    *(Dosya adınız farklıysa onu yazın, örn: AltPhaseCalcvers4.py)*
 
 ## ⚙️ Yapılandırma (Konum Ayarları)
 
